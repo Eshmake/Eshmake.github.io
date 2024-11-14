@@ -18,7 +18,6 @@
     height: 90vh;
     z-index: 1;
     width: 100%;
-    max-width: 1300px;
     padding: 0 50px;
     background-color: blue;
 }
@@ -47,7 +46,7 @@
     flex-direction: column;
     align-items: center;
     height: 30vh;
-    padding: 30px 30px;
+    padding: 50px 50px;
 }
 
 .profileLink {
@@ -55,7 +54,7 @@
     justify-self: center;
     text-align: center;
     font-size: 1.5rem; 
-    padding-top: 10px; 
+    padding-top: 50px; 
     padding-bottom: 20px;
 }
 
@@ -67,6 +66,7 @@
     align-items: center;
     margin: 18px;
     box-sizing: border-box;
+    padding-top: 50px;
     padding-bottom: 20px;
 }
 
@@ -87,7 +87,8 @@
     align-items: center;
     margin: 18px;
     box-sizing: border-box;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 70px;
 }
 
 .socials h2 {
@@ -101,20 +102,4 @@
 
 .socials a {
     font-size: 1.5rem;
-}
-
-.videoEmbed {
-    text-align: center;
-    justify-self: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 18px;
-    box-sizing: border-box;
-    padding-bottom: 20px;
-}
-
-.videoEmbed h2 {
-    font-size: 2.25rem;
-    padding-bottom: 10px;
 }
